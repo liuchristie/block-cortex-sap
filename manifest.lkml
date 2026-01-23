@@ -19,7 +19,7 @@ constant: CONNECTION_NAME {
 }
 
 constant: GCP_PROJECT {
-  value: "  liuchristie-142-20250922213141"
+  value: "liuchristie-142-20250922213141"
   export: override_required
 }
 
