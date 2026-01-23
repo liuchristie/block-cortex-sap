@@ -1,9 +1,4 @@
-#########################################################{
-# Balance Sheet financial report using Report Table visualization (available for free on Looker Marketplace)
-# extends filters and title summary from balance_sheet_template
-# customizations:
-#   - Balance Sheet table based on marketplace_viz_report_table::report_table-marketplace
-#########################################################}
+
 
 - dashboard: balance_sheet_mktplace_report_table
   title: Financial Balance Sheet

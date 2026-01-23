@@ -33,6 +33,7 @@ named_value_format: Greek_Number_Format {
   value_format: "[>=1000000000]0.0,,,\"B\";[>=1000000]0.0,,\"M\";[>=1000]0.0,\"K\";0.0"
 }
 
+
 explore: data_intelligence_ar {
 sql_always_where: ${Client_ID} = "@{CLIENT}" ;;
   join: currency_conversion_new {
@@ -220,7 +221,7 @@ explore: days_payable_outstanding_v2 {
 
 
 explore: accounts_payable_v2 {
-
+  description: "Analyze total receivables, overdue receivables, days outstanding, and top companies with highest receivables."
   sql_always_where: ${accounts_payable_v2.client_mandt} =  '{{ _user_attributes['client_id_rep'] }}';;
 }
 
