@@ -1,20 +1,35 @@
+
+remote_dependency: marketplace_viz_report_table {
+  url: "https://github.com/looker-open-source/viz-report-table-marketplace-open-source.git"
+  ref: "master"
+
+  # 2. Override the ID to match the dashboard (hyphen instead of underscore)
+  override_constant: VIS_ID {
+    value: "report_table-marketplace"
+  }
+
+  override_constant: VIS_LABEL {
+    value: "Table (Report)"
+  }
+}
+
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "cortex_2026"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project ID"
+  value: "  liuchristie-142-20250922213141"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "cortex_sap_reporting"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "100"
   export: override_required
 }
 

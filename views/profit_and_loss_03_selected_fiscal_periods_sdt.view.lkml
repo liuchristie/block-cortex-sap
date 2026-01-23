@@ -57,7 +57,8 @@
 # If the user selects a partial year or quarter, the comparison period will also be a partial year or quarter.
 ##########################################################}
 
-include: "/views/profit_and_loss_0*.view"
+include: "/views/profit_and_loss_01_reporting_fiscal_periods_sdt.view.lkml"
+include: "/views/profit_and_loss_02_comparison_fiscal_periods_sdt.view.lkml"
 
 view: profit_and_loss_03_selected_fiscal_periods_sdt {
   label: "Reporting vs. Comparison Period"

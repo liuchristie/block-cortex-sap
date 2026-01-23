@@ -26,6 +26,7 @@ include: "/views/universal_ledgers_md_rfn.view"
 include: "/views/balance_sheet_fiscal_periods_selected_sdt.view"
 include: "/views/balance_sheet_hierarchy_selection_sdt.view"
 include: "/views/balance_sheet_navigation_ext.view"
+include: "/explores_finance/*.explore.lkml"
 
 explore: balance_sheet {
   always_join: [language_map_sdt]

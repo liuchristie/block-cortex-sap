@@ -134,12 +134,12 @@ view: common_hierarchy_fields_finance_ext {
   dimension: hier4_node {
     hidden: yes
     type: string
-    sql: UPPER(COALESCE(${TABLE}.hier4_node,'ZZZZ') ;;
+    sql: UPPER(COALESCE(${TABLE}.hier4_node,'ZZZZ')) ;;
   }
 
   dimension: hier5_node {
     hidden: yes
     type: string
-    sql: UPPER(COALESCE(${TABLE}.hier5_node),'ZZZZ') ;;
+    sql: UPPER(COALESCE(${TABLE}.hier5_node,'ZZZZ')) ;;
   }
 }

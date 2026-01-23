@@ -28,6 +28,8 @@ include: "/views/universal_ledgers_md_rfn.view"
 include: "/views/profit_and_loss_03_selected_fiscal_periods_sdt.view"
 include: "/views/profit_and_loss_hierarchy_selection_sdt.view"
 include: "/views/profit_and_loss_navigation_ext.view"
+include: "/views/profit_and_loss_01_reporting_fiscal_periods_sdt.view"
+include: "/views/profit_and_loss_02_comparison_fiscal_periods_sdt.view"
 
 explore: profit_and_loss {
   always_join: [language_map_sdt]
