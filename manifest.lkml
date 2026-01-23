@@ -9,7 +9,7 @@ remote_dependency: marketplace_viz_report_table {
   }
 
   override_constant: VIS_LABEL {
-    value: "Table (Report)"
+    value: "report_table-marketplace"
   }
 }
 
