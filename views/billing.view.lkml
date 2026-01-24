@@ -9,7 +9,7 @@ view: billing {
   # Here's what a typical dimension looks like in LookML.
   # A dimension is a groupable field that can be used to filter query results.
   # This dimension will be called "Accounting Document Number Belnr" in Explore.
-  
+
   fields_hidden_by_default: yes
 
   dimension: key {
@@ -17,13 +17,14 @@ view: billing {
     primary_key: yes
     sql: CONCAT(${client_mandt},${billing_document_vbeln},${billing_item_posnr});;
   }
-  
+
   dimension: accounting_document_number_belnr {
     type: string
     sql: ${TABLE}.AccountingDocumentNumber_BELNR ;;
   }
 
   dimension: accrual_billing_type_fkart {
+    description: "Type of billing document"
     type: string
     sql: ${TABLE}.AccrualBillingType_FKART ;;
   }
@@ -32,7 +33,7 @@ view: billing {
     type: number
     sql: ${TABLE}.ActualBilledQuantity_FKIMG ;;
   }
-  
+
   measure: total_actual_billed_quantity_fkimg {
     type: number
     sql: SUM(${actual_billed_quantity_fkimg}) ;;
@@ -45,6 +46,7 @@ view: billing {
   }
 
   dimension: billing_category_fktyp {
+    description: "Category of the billing document."
     type: string
     sql: ${TABLE}.BillingCategory_FKTYP ;;
   }
@@ -184,6 +186,7 @@ view: billing {
   }
 
   dimension: distribution_channel_vtweg {
+    description: "Distribution channel used in the billing document."
     type: string
     sql: ${TABLE}.DistributionChannel_VTWEG ;;
   }
@@ -434,6 +437,7 @@ view: billing {
   }
 
   dimension: sales_organization_vkorg {
+    description: "Sales organization responsible for the billing document."
     type: string
     sql: ${TABLE}.SalesOrganization_VKORG ;;
   }

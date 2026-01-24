@@ -10,6 +10,7 @@ view: balance_sheet {
     sql: ${TABLE}.AmountInTargetCurrency ;;
   }
   dimension: avg_exchange_rate {
+    description: "Average exchange rate used for currency conversion."
     type: number
     sql: ${TABLE}.AvgExchangeRate ;;
   }
@@ -22,6 +23,7 @@ view: balance_sheet {
     sql: ${TABLE}.ChartOfAccounts ;;
   }
   dimension: client {
+    description: "Client for SAP"
     type: string
     sql: ${TABLE}.Client ;;
   }
@@ -30,6 +32,7 @@ view: balance_sheet {
     sql: ${TABLE}.CompanyCode ;;
   }
   dimension: company_text {
+    description: "Text description of the company."
     type: string
     sql: ${TABLE}.CompanyText ;;
   }
@@ -50,6 +53,7 @@ view: balance_sheet {
     sql: ${TABLE}.ExchangeRate ;;
   }
   dimension: fiscal_period {
+    description: "The fiscal period for the balance sheet data."
     type: string
     sql: ${TABLE}.FiscalPeriod ;;
   }
@@ -82,6 +86,7 @@ view: balance_sheet {
     sql: ${TABLE}.Level ;;
   }
   dimension: max_exchange_rate {
+    description: "Maximum exchange rate used for currency conversion."
     type: number
     sql: ${TABLE}.MaxExchangeRate ;;
   }
