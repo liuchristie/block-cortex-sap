@@ -2,7 +2,7 @@
   title: "Sales Price Adjustments based on Customer Profiling"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Drills into how pricing varies by customer, showing the spread between list price and final adjusted price to monitor discounting practices.'
   preferred_slug: Z94oNLtpcjeajqE04BcyYs
   elements:
   - title: Price Adjustments based on Customer Profiling

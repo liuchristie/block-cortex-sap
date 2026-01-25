@@ -2,7 +2,7 @@
   title: "Accounts Receivable - Total Receivables"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'A summary report of all outstanding receivables, providing a complete picture of the AR sub-ledger status.'
   elements:
   - title: Account Receivable by Company
     name: Account Receivable by Company

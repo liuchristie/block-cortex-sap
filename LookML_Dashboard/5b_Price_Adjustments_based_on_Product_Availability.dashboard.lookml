@@ -2,7 +2,7 @@
   title: "Sales Price Adjustments based on Product Availability"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Examines pricing variances related to product availability or specific material conditions, including intercompany price adjustments.'
   preferred_slug: czcqyrsOL08tBS64sMEj21
   elements:
   - title: Price Adjustments based on Product Availability

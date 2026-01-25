@@ -2,7 +2,7 @@
   title: "Inventory Management"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Top-level dashboard for inventory health. Shows stock value distribution, slow-moving items, obsolete stock, and inventory turnover trends.'
   refresh: 1 day
   preferred_slug: 0xQ5BWiLCwSp88kHeTdRWr
   elements:

@@ -2,7 +2,7 @@
   title: "Sales Performance by Distribution Channel"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Break down sales results specifically by distribution channels (e.g., Wholesale, Retail, Direct) to evaluate channel effectiveness.'
   preferred_slug: Ji6XE0aGtwA6WHE7qp2qwf
   elements:
   - title: Untitled

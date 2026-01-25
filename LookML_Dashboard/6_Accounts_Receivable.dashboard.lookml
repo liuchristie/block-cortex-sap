@@ -2,7 +2,7 @@
   title: "Accounts Receivable"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Overview of what the company is owed. It displays total receivables, overdue amounts by aging buckets, and doubtful receivables by company code.'
   elements:
   - title: Account Receivable by Company
     name: Account Receivable by Company

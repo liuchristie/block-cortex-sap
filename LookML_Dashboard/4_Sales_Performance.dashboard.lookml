@@ -2,7 +2,7 @@
   title: "Sales Performance"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'High-level sales overview showing net values across top products, sales organizations, distribution channels, and divisions to identify top revenue drivers.'
   preferred_slug: FM7SdAo1feuXPacg2v6aZh
   elements:
   - name: Sales Performance

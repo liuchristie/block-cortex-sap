@@ -2,7 +2,7 @@
   title: "Sales Performance by Product"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Granular analysis of individual product performance, including quantities sold and revenue generated per material.'
   preferred_slug: IHja91oLgL82jKraEZcMlL
   elements:
   - title: Sales Performance by Product

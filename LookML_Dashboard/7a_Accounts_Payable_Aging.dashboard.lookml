@@ -2,7 +2,7 @@
   title: "Accounts Payable Aging"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'break down payables into aging buckets (e.g., 0-30, 31-60, 60-90 days) to help manage cash flow and prioritize payments.'
   preferred_slug: 0TvCQ2pIHHnORtR4zHqUkD
   elements:
   - title: Accounts Payable Aging

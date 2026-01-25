@@ -32,7 +32,7 @@ include: "/views/profit_and_loss_01_reporting_fiscal_periods_sdt.view"
 include: "/views/profit_and_loss_02_comparison_fiscal_periods_sdt.view"
 
 explore: profit_and_loss {
-  description: "The profit_and_loss Explore supports the Income Statement dashboards and any adhoc querying of profit_and_loss view."
+  description: "(Also known as Income Statement) Enables the creation of Income Statements to analyze revenues, expenses, and net income. Supports fiscal period selection, comparisons (YoY, prior period), and hierarchical views of the General Ledger."
   always_join: [language_map_sdt]
 
   label: "Income Statement"

@@ -29,7 +29,7 @@ include: "/views/balance_sheet_navigation_ext.view"
 include: "/explores_finance/*.explore.lkml"
 
 explore: balance_sheet {
-  description: "View of balance sheet as of a selected fiscal period. Compare it to the same period last year, the previous fiscal period, or a different fiscal period. Note - the current fiscal year is 2023. Display multiple levels of the selected hierarchy for a user-specified chart of accounts and company. Two dashboards using different table styles are included."
+  description: "Facilitates financial reporting for the Balance Sheet. It allows users to view assets, liabilities, and equity for a selected fiscal period, with options to compare against prior periods or years. Supports hierarchy selection and currency conversion. Note - the current fiscal year is 2023. Display multiple levels of the selected hierarchy for a user-specified chart of accounts and company. Two dashboards using different table styles are included."
   always_join: [language_map_sdt]
 
   always_filter: {filters:[balance_sheet.hierarchy_name: "",balance_sheet.chart_of_accounts: "",balance_sheet.company_text: "",balance_sheet.target_currency_tcurr: ""]}

@@ -2,7 +2,7 @@
   title: "Accounts Receivable - Days Sales Outstanding"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Tracks DSO trends to measure how quickly customers are paying. Includes analysis by company and individual customer.'
   elements:
   - title: 'Day Sales Outstanding by Company '
     name: 'Day Sales Outstanding by Company '

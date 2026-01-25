@@ -2,7 +2,7 @@
   title: "Accounts Payable"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Overview of what the company owes. It covers total due amounts, past due liabilities, and cash discount utilization trends.'
   preferred_slug: zW4D9AhK2n0Ufdpf6iXd9X
   elements:
   - name: Key Accounts Payable Indicators

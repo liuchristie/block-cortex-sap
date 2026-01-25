@@ -2,7 +2,7 @@
   title: "Accounts Receivable - Doubtful Receivables"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Focuses on high-risk receivables. It lists customers and specific documents where payment is doubtful, aiding in bad debt estimation.'
   elements:
   - title: Doubtful Receivable by Company
     name: Doubtful Receivable by Company

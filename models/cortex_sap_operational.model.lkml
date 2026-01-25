@@ -35,6 +35,7 @@ named_value_format: Greek_Number_Format {
 
 
 explore: data_intelligence_ar {
+  description: "Dedicated to Accounts Receivable analysis, this Explore enables the reporting of receivables, overdue amounts, and bad debt, including currency conversion capabilities for global reporting."
 sql_always_where: ${Client_ID} = "@{CLIENT}" ;;
   join: currency_conversion_new {
     type: left_outer
@@ -49,7 +50,7 @@ sql_always_where: ${Client_ID} = "@{CLIENT}" ;;
 }
 
 explore: sales_orders {
-
+  description: "This comprehensive Explore allows for the analysis of the entire Order-to-Cash (O2C) process. It joins sales orders with deliveries, billing, materials, customers, and organizational data to provide insights into order fulfillment, status, sales performance, and pricing."
   join: language_map {
     fields: []
     type: left_outer
@@ -192,6 +193,7 @@ explore: sales_orders {
   ########################################### Finanace Dashboards ########################################################################
 
 explore: vendor_performance {
+  description: "Focuses on vendor evaluation and purchasing analytics. It combines purchasing documents with vendor details and material valuations to track spend, delivery performance (on-time, in-full), and purchase price variances."
   sql_always_where: ${vendor_performance.client_mandt} = '{{ _user_attributes['client_id_rep'] }}'
     and ${language_map.looker_locale}='{{ _user_attributes['locale'] }}'
     ;;
@@ -216,21 +218,24 @@ explore: vendor_performance {
 }
 
 explore: days_payable_outstanding_v2 {
+  description: "Focuses on Days Payable Outstanding (DPO) metrics to evaluate how long it takes the company to pay its invoices and manage cash flow."
   sql_always_where: ${client_mandt} = '{{ _user_attributes['client_id_rep'] }}' ;;
 }
 
 
 explore: accounts_payable_v2 {
-  description: "Analyze total receivables, overdue receivables, days outstanding, and top companies with highest receivables."
+  description: "Used to analyze total payables, overdue payables, and aging buckets. It helps identify top vendors by outstanding balance and tracks potential penalties or lost cash discounts. Analyze total receivables, overdue receivables, days outstanding, and top companies with highest receivables."
   sql_always_where: ${accounts_payable_v2.client_mandt} =  '{{ _user_attributes['client_id_rep'] }}';;
 }
 
 explore: cash_discount_utilization {
+  description: "Tracks the efficiency of capturing cash discounts offered by vendors for early payment, highlighting utilized vs. lost potential discounts."
   sql_always_where: ${client_mandt} = '{{ _user_attributes['client_id_rep'] }}';;
 }
 
 
 explore: accounts_payable_overview_v2 {
+  description: "Specifically designed to analyze Accounts Payable turnover rates, calculating how many times the company pays off its average payable amount during a period. A summary Explore for Accounts Payable high-level KPIs, likely used for executive dashboards to show total due, past due, and blocked invoices."
 
   sql_always_where: ${accounts_payable_overview_v2.client_mandt} =  '{{ _user_attributes['client_id_rep'] }}' ;;
 }
@@ -241,6 +246,7 @@ explore: accounts_payable_turnover_v2 {
 }
 
 explore: materials_valuation_v2 {
+  description: "Provides data on material costs and valuation, including standard cost, moving average price, and total stock value, often used for variance analysis."
   sql_always_where: ${client_mandt} = '{{ _user_attributes['client_id_rep'] }}' ;;
 }
 
@@ -250,6 +256,7 @@ explore: materials_valuation_v2 {
 
 
 explore: inventory_metrics_overview {
+  description: "Provides a high-level view of inventory health, including key metrics like inventory turnover, days of supply, and stock value across different plants and material groups."
   sql_always_where: ${inventory_metrics_overview.client_mandt} = '{{ _user_attributes['client_id_rep'] }}'
   and ${language_map.looker_locale}='{{ _user_attributes['locale'] }}';;
 
@@ -271,6 +278,7 @@ explore: inventory_metrics_overview {
 }
 
 explore: inventory_by_plant {
+    description: "Enables detailed analysis of inventory stock levels and values at the plant level, including breakdowns by storage location, batch, and stock type (e.g., unrestricted, blocked)."
     sql_always_where: ${inventory_by_plant.client_mandt} = '{{ _user_attributes['client_id_rep'] }}'
         and ${language_map.looker_locale}='{{ _user_attributes['locale'] }}'
     ;;

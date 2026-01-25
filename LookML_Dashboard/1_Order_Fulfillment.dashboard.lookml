@@ -2,7 +2,7 @@
   title: "Sales Order Fulfillment"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Monitors the efficiency of the order fulfillment process. Key metrics include On-Time In-Full (OTIF) rates, late delivery percentages, and average order-to-delivery cycle times.'
   preferred_slug: lHbnrTBMjvg1YjLyNL9x92
   elements:
   - name: Order Fulfillment

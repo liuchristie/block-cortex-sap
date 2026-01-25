@@ -2,7 +2,7 @@
   title: "Inventory Stock Value Details"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Detailed report listing inventory values by plant, storage location, and material, helping to reconcile stock accounts and identify high-value locations.'
   preferred_slug: FfppWWxWhHUQLrsiDEUVRu
   elements:
   - title: Inventory Value by Plant

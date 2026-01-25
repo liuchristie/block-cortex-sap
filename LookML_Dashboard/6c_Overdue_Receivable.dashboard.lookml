@@ -2,7 +2,7 @@
   title: "Accounts Receivable - Overdue Receivables"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'A prioritized list of overdue payments. It helps collections teams target specific customers and invoices that have passed their net due dates.'
   elements:
   - title: Overdue Receivable by Company
     name: Overdue Receivable by Company

@@ -2,7 +2,7 @@
   title: "Spend Analysis by Top Vendors"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Deep dive into the vendors receiving the most spend, including details on specific purchase orders and materials supplied.'
   preferred_slug: xvgMbGq3Axh5UJcSs2OGLq
   elements:
   - title: Spend by Top Vendors Detailed Report

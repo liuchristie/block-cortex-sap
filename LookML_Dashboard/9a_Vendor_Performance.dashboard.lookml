@@ -2,7 +2,7 @@
   title: "Vendor Delivery Performance Trend"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Tracks the reliability of vendors over time, showing trends in on-time and in-full deliveries to identify improving or deteriorating performance.'
   preferred_slug: 1E0Z3ngekMzhHYCkG9ti4H
   elements:
   - title: Delivery Performance Detailed Report

@@ -2,7 +2,7 @@
   title: "Sales Billing and Pricing"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Analyzes pricing strategies and billing accuracy. It compares list prices vs. adjusted prices and highlights intercompany pricing and customer-specific price variations.'
   preferred_slug: VMRXJW8ou8ax9tT9Eiuyof
   elements:
   - name: Customer focused Price Variations

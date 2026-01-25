@@ -2,7 +2,7 @@
   title: "Sales Order Delivery Performance"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'A detailed report focusing on delivery logistics. It provides a granular view of delivery items, actual vs. requested delivery dates, and shipping locations.'
   preferred_slug: 9XW5FidZo6dLdTLY0OJADx
   elements:
   - title: Delivery Performance

@@ -2,7 +2,7 @@
   title: "Sales Order Status Snapshot"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Provides a health check on current orders. It highlights fill rates, cancelled orders, returned orders, and "One Touch" orders (orders processed without manual intervention).'
   preferred_slug: 7yeTGw3NJb448nhSCCGtGE
   elements:
   - name: Order Status Snapshot

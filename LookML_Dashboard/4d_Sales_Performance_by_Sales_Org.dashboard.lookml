@@ -2,7 +2,7 @@
   title: "Sales Performance by Sales Organization"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Evaluates sales success across different regional or functional sales organizations within the company.'
   preferred_slug: VUVQtGXYbiq1V0c2ZWA6e4
   elements:
   - title: Sales Performance by Sales Org

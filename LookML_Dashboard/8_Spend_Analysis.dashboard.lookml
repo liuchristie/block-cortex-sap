@@ -2,7 +2,7 @@
   title: "Spend Analysis"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Strategic view of procurement spend. It visualizes total spend by vendor, purchasing group, material type, and country over time.'
   preferred_slug: nduljjI5gByUjzwTT99hBL
   elements:
   - name: ''

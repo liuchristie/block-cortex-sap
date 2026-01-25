@@ -2,7 +2,7 @@
   title: "Sales Performance by Division"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Segment sales performance by product divisions to understand which business lines are contributing most to the bottom line.'
   preferred_slug: igss5BgFxqD1sKW7M88XTy
   elements:
   - title: New Tile

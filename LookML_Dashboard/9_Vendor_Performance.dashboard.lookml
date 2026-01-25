@@ -2,7 +2,7 @@
   title: "Vendor Performance"
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: ''
+  description: 'Evaluates vendors based on lead time, on-time delivery rates, rejection rates, and purchase price variances.'
   preferred_slug: IjLuUaKUK8RpdGr4iZ6Nbd
   elements:
   - title: Vendor Lead Time
